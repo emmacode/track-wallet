@@ -1,0 +1,121 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  height: 100vh;
+}
+
+.header {
+  grid-area: header;
+  background-color: #dd4f05;
+}
+
+.main {
+  grid-area: main;
+  background-color: #ffffff;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #dd4f05;
+}
+
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: rgba(221, 81, 5, 0.653);
+  color: #fff;
+}
+
+.sidebar__button {
+  padding: 0;
+  margin-top: 85px;
+  list-style-type: none;
+}
+
+.sidelinks {
+  padding: 20px 20px 20px 40px;
+  color: #ddd;
+}
+
+.sidelinks:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 46.875em) {
+  .grid-container {
+    grid-template-columns: 240px 1fr;
+    grid-template-areas:
+      "sidenav header"
+      "sidenav main"
+      "sidenav footer";
+  }
+
+  .sidenav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* hamburger style */
+
+.menu-icon {
+  position: fixed;
+  display: flex;
+  top: 5px;
+  left: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  padding: 12px;
+  background-color: #ffffff;
+}
+
+.sidenav {
+  grid-area: sidenav;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  overflow-y: auto;
+  z-index: 2;
+  background-color: rgba(221, 81, 5, 0.844);
+  transform: translateX(-245px);
+  transition: all 0.6s ease-in-out;
+}
+
+.sidenav.active {
+  transform: translateX(0);
+}
+
+.sidenav__close-icon {
+  position: absolute;
+  visibility: visible;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 46.875em) {
+  .sidenav {
+    position: relative; /* Fixed position on mobile */
+    transform: translateX(0);
+  }
+
+  .sidenav__close-icon {
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,232 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+
+.dashboard-worth {
+  display: flex;
+  flex-direction: column;
+}
+
+.worth {
+  color: #696f73;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.worth span {
+  padding-left: 20px;
+}
+
+.bank-account {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #696f73;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.bank-account h3 {
+  color: #696f73;
+}
+
+.account-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.bank-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.new-transc {
+  color: #696f73;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.tab_button {
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard-transaction {
+  margin-top: 30px;
+}
+
+.transaction-table {
+  border-left: 0.5px solid #696f73;
+  border-right: 0.5px solid #696f73;
+  border-bottom: 0.5px solid #696f73;
+  margin-top: 20px;
+}
+
+.tablinks {
+  width: 384px;
+  height: 40px;
+}
+
+/* expense */
+
+.expense {
+  padding: 10px;
+}
+
+.expense-from {
+  display: flex;
+  flex-direction: row;
+}
+
+.expense-account {
+  width: 420px;
+  height: 38px;
+  border-radius: 0.29rem;
+  border: 1px solid #22242626;
+  padding: 0.78571429em 2.1em 0.78571429em 1em;
+  outline: none;
+}
+
+.expense-amount {
+  width: 220px;
+  height: 38px;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #22242626;
+  padding: 0.78571429em 2.1em 0.78571429em 1em;
+  outline: none;
+}
+
+.expense-tag {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.expense-tags {
+  width: 420px;
+  height: 38px;
+  border-radius: 0.29rem;
+  border: 1px solid #22242626;
+  padding: 0.78571429em 2.1em 0.78571429em 1em;
+  outline: none;
+}
+
+.expense-date {
+  width: 220px;
+  height: 38px;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #22242626;
+  padding: 0.78571429em 2.1em 0.78571429em 1em;
+  outline: none;
+}
+
+.expense-note {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.note {
+  width: 420px;
+  height: 38px;
+  border-radius: 0.29rem;
+  border: 1px solid #22242626;
+  padding: 0.78571429em 2.1em 0.78571429em 1em;
+  outline: none;
+}
+
+.addExpense {
+  width: 220px;
+  height: 38px;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #dd4f05;
+  background-color: #dd4f05;
+  color: #ffffff;
+  margin-top: 1.5rem;
+  outline: none;
+}
+
+/* income */
+
+.income {
+  padding: 10px;
+}
+
+.income-to {
+  display: flex;
+  flex-direction: row;
+}
+
+.income-account {
+  width: 420px;
+  height: 38px;
+  border-radius: 0.29rem;
+  border: 1px solid #22242626;
+  padding: 0.78571429em 2.1em 0.78571429em 1em;
+  outline: none;
+}
+
+.income-amount {
+  width: 220px;
+  height: 38px;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #22242626;
+  padding: 0.78571429em 2.1em 0.78571429em 1em;
+  outline: none;
+}
+
+.income-tag {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.income-tags {
+  width: 420px;
+  height: 38px;
+  border-radius: 0.29rem;
+  border: 1px solid #22242626;
+  padding: 0.78571429em 2.1em 0.78571429em 1em;
+  outline: none;
+}
+
+.income-date {
+  width: 220px;
+  height: 38px;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #22242626;
+  padding: 0.78571429em 2.1em 0.78571429em 1em;
+  outline: none;
+}
+
+.income-note {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.addIncome {
+  width: 220px;
+  height: 38px;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #dd4f05;
+  background-color: #dd4f05;
+  color: #ffffff;
+  margin-top: 1.5rem;
+  outline: none;
+}

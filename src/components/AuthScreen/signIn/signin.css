@@ -1,0 +1,52 @@
+.signin {
+  padding: 100px 50px 0px 50px;
+}
+
+.signin-form {
+  padding: 30px;
+}
+
+.signin-icon img {
+  width: 300px;
+}
+
+.signin__email label {
+  color: #dd4f05;
+}
+
+.signin__email-input {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  outline: none;
+  border-bottom: 0.5px solid #dd4f05;
+  width: 100%;
+}
+
+.signin__password label {
+  color: #dd4f05;
+  margin-top: 10px;
+}
+
+.signin__password-input {
+  border-top: transparent;
+  border-right: transparent;
+  border-bottom: 0.5px solid #dd4f05;
+  border-left: transparent;
+  width: 100%;
+  outline: none;
+}
+
+.signin__button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+
+.login-button {
+  background-color: #dd4f05;
+  color: #fff;
+  border-color: #dd4f05;
+  outline: none;
+  padding: 4px 18px;
+}

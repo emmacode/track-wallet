@@ -1,0 +1,73 @@
+.account {
+  padding-top: 50px;
+}
+
+.account-header {
+  font-size: 40px;
+  text-align: center;
+  color: #696f73;
+  font-family: "Roboto", sans-serif;
+}
+
+.setup-desc {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #696f73;
+  font-family: "Roboto", sans-serif;
+}
+
+.currency-option {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.base-currency {
+  width: 410px;
+  height: 48px;
+}
+
+.account__detail {
+  margin-top: 20px;
+}
+
+.account-name {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.account__amount {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.account__detail-input {
+  width: 410px;
+  height: 48px;
+  padding: 5px;
+  outline: none;
+}
+
+.account__amount-input {
+  width: 410px;
+  height: 48px;
+  padding: 5px;
+  outline: none;
+}
+
+.account-save {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.save-account {
+  width: 198px;
+  height: 48px;
+  background-color: #dd4f05;
+  border-color: #dd4f05;
+  color: #ffffff;
+}

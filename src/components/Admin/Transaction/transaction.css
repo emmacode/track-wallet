@@ -1,0 +1,19 @@
+.transaction-body {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px 0px 100px;
+}
+
+.transaction {
+  border: 0.5px solid #696f73;
+}
+
+.transaction-details {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.transaction-date {
+    color: #7c7c7d;
+}

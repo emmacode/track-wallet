@@ -1,0 +1,40 @@
+.bankAccount-body {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px 0px 250px;
+}
+
+.bankAccount-head {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4d4e500d;
+  font-weight: 500;
+  padding: 0.5em 1em;
+  font-size: 1.14285714rem;
+  line-height: 1.5;
+}
+
+.bankAccount-details {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #696f73;
+}
+
+.bankAccount-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.bankDistr {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+}
+
+.bankName {
+  color: #4183c4;
+}
+
+.accountAmount {
+  color: #21ba45;
+}

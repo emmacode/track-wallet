@@ -1,0 +1,72 @@
+.signup {
+  padding-top: 100px;
+}
+
+.signup__name label {
+  color: #696f73;
+}
+
+.signup__name-input {
+  width: 100%;
+  border: 0.5px solid #696f73;
+  padding: 5px;
+  outline: none;
+}
+
+.signup__email {
+  margin-top: 10px;
+}
+
+.signup__email label {
+  color: #696f73;
+}
+
+.signup__email-input {
+  width: 100%;
+  border: 0.5px solid #696f73;
+  padding: 5px;
+  outline: none;
+}
+
+.signup__password {
+  margin-top: 10px;
+}
+
+.signup__password label {
+  color: #696f73;
+}
+
+.signup__pass-input {
+  width: 100%;
+  border: 0.5px solid #696f73;
+  padding: 5px;
+  outline: none;
+}
+
+.signup__button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.register-button {
+  background-color: #dd4f05;
+  border-color: #dd4f05;
+  color: #ffffff;
+  padding: 8px 32px;
+  outline: none;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.signup-switch {
+  color: #696f73;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.signup-switch span a {
+  color: #dd4f05;
+  text-decoration: none;
+  padding-left: 2px;
+}

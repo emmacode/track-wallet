@@ -1,0 +1,64 @@
+.navbar a.navbar-brand {
+  font-family: "Monoton", cursive;
+  color: #dd4f05;
+}
+
+.navbar a.navbar-brand:hover {
+  color: #dd4f05;
+}
+
+.bg-light {
+  background-color: #fff !important;
+  padding: 15px 50px 15px 50px;
+}
+
+.navbar-nav .nav-item a.nav-link {
+  color: #dd4f05;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-item a.nav-link:hover {
+  color: #dd4f05;
+}
+
+.home__banner {
+  background-color: #ffffff;
+  padding-top: 100px;
+}
+
+.home__banner-text {
+  padding: 50px 100px 0px 100px;
+}
+
+.home__banner-text h1 strong {
+  /* color: #696f73; */
+  color: #dd4f05;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 1.3em;
+  font-weight: 400;
+  font-family: In;
+  font-family: "Roboto", sans-serif;
+}
+
+.getStarted__button {
+  background-color: #dd4f05;
+  border-color: #dd4f05;
+  margin-top: 32px;
+  font-size: 15px;
+  outline: none;
+  padding: 16px 32px;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.getStarted__button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.getStarted__button:hover {
+  background-color: #dd4f05;
+  border-color: #dd4f05;
+}
